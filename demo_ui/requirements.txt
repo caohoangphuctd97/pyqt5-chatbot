@@ -1,0 +1,7 @@
+pyqt5
+pyqt5-tools
+speechrecognition
+pyaudio
+pyttsx3
+PyQtWebEngine
+requests

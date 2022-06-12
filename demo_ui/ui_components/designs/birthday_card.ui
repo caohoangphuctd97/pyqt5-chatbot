@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>684</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>birthday_card</string>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QLabel" name="lb_card">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>684</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1200</width>
+     <height>684</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_start_chatting">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>480</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #C00;
+color: white;
+padding: 5px 15px;
+border-radius: 15px;
+outline: 0;
+text-transform: uppercase;
+cursor: pointer;
+box-shadow: 0px 2px 2px gray;
+transition: ease background-color 250ms;
+</string>
+   </property>
+   <property name="text">
+    <string>Click here to chat with me</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
